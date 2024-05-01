@@ -1,0 +1,17 @@
+README
+
+Zenodo DOI for code and data:  
+https://doi.org/10.5281/zenodo.6466491
+
+DICOM and NIfTI files acquired and saved from a Philips Ingenia MR scanner.
+
+geomdemo.m -  MATLAB Code 
+geomdemo.py - corresponding Python code (interactive 3D plots work best in MATLAB)
+
+ori_info.m - MATLAB code returning orientation labels
+
+ndcomp.m - MATLAB script comparing transforms from DICOM and NIfTI files.
+
+nifti_data.py - Python code to display some NIfTI related data.
+
+docs folder has text summaries of the acquisition parameters
