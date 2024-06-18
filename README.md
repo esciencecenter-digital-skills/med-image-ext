@@ -51,10 +51,17 @@ The course will be taught with an exercises document [pending](pending_document.
 ## Environment:
 To work with the correct packages:
 Install all Python packages required, using conda and the
-    `environment.yml` file.
+    `main_environment.yml`  and `ml_environment` files.
 
-  * The command for Windows/Anaconda users will be:
-     `conda env create -f environment.yml`
+
+  * The command for getting out of one environment for Anaconda users will be:
+     `conda deactivate`
+
+  * The command for setting up the main environment Windows/Anaconda users will be:
+     `conda env create -f main_environment.yml`
+
+  * To setup the addtional environment get out of your current environment then execute the he command for setting up the ML environment with Anaconda, wwhich will be:
+     `conda env create -f main_environment.yml`
 
   You can find additional instructions in our [setup](https://github.com/esciencecenter-digital-skills/image-processing/blob/main/setup.md)
 
